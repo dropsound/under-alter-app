@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rubik', sans-serif;
+  color: var(--primary);
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: var(--secondary);
+  line-height: 1.5;
+  font-size: 1rem;
+}

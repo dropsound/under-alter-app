@@ -1,0 +1,78 @@
+@import '../global/variables';
+@import '../global/typography';
+@import '../global/global';
+
+html {
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+}
+nav {
+  background: var(--primary);
+  .nav-link {
+    color: var(--secondary-light);
+    &:hover {
+      color: var(--primary-light);
+    }
+  }
+}
+.app-body {
+  min-height: 85vh;
+  background-color: var(--secondary-light);
+  .card {
+    border: none;
+    width: 100%;
+    box-shadow: 0px 0px 33px -10px rgba($color: #000000, $alpha: 0.3);
+  }
+}
+.card-img-top {
+    height: 10rem;
+    width: auto;
+    object-fit: none;
+}
+.subscription-form {
+  background-color: var(--secondary-light);
+  padding: 1.5rem 0;
+  .card {
+    margin: 1.5rem 0;
+    width: 100%;
+    box-shadow: none;
+  }
+}
+.featured-section {
+  background-color: var(--secondary);
+  padding: 0 0 2rem 0;
+}
+.latest-section {
+  background-color: var(--primary-light);
+  padding: 0 0 2rem 0;
+  h2, p {
+    color: var(--secondary)!important;
+  }
+}
+.single-post {
+  padding: 1.5rem 0;
+  .card-img-top {
+    height: 20rem;
+    width: auto;
+    object-fit: cover;
+  }
+}
+.comment-box {
+  padding: 1rem 2rem;
+  background-color: var(--neutral-light);
+}
+.about-us, .terms-page {
+  background-color: var(--secondary-light);
+
+  .about-us-card {
+    background-color: var(--secondary);
+    border-radius: 8px;
+  }
+  .about-content {
+    background-color: var(--secondary-light);
+    border-radius: 8px;
+
+  }
+}
